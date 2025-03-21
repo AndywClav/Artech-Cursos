@@ -4,7 +4,7 @@ import { Cursos, Curso } from "../pages";
 
 function Router() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename={"/pescar/artech/"}>
       <Routes>
         <Route path="/" element={<Navigate to="/cursos" />} />
 
